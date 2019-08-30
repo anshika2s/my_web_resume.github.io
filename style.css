@@ -1,0 +1,197 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right,#ffffff,#99ffcc);
+  margin: 0;
+}
+div{
+  margin: 0;
+}
+
+.nav_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.nav_menu .nav_link.active {
+  background-color:	#C0C0C0;
+  color: white;
+}
+
+.nav_menu .nav_link:hover:not(.active) {
+  background-color:	#C0C0C0;
+  color: white;
+}
+
+.nav_list .nav_link {
+  display: block;
+  color: #000;
+  padding: 10% 20%;
+  text-decoration: none;
+}
+
+.nav_list .nav_link:hover{
+  background-color:#555;
+  color: white;
+}
+
+.home{
+  margin-left:20%;
+  text-align:center;
+  height:900px;
+  background-color:	#C0C0C0;
+  background-image: linear-gradient(to right, #757f9a,#d7dde8);
+
+}
+.name{
+  font-size:250%;
+  padding-top:2%;
+}
+.image{
+  padding-top:20%;
+}
+.photo{
+  border-radius:60%;
+}
+
+.profile{
+  margin-left:20%;
+  height:850px;
+  background-image: linear-gradient( to right,#33ccff,#ff99cc);
+}
+
+.profile_heading{
+  font-size:400%;
+  background-color:#5DADE2 ;
+  padding-top:8%;
+  padding-bottom:8%;
+  text-align: center;
+}
+
+.pro{
+  font-size:120%;
+  padding-top:4%;
+  list-style-type: none;
+  /* background-color:#80ffbf; */
+  padding-left:10%;
+  /* padding-bottom:; */
+}
+.education{
+  list-style-type: none;
+  margin-left:20%;
+   background-image: linear-gradient( to right, #99ffcc,#ffff99);
+  /* background-image: url("images/Telegram.jpg"); */
+  height:920px;
+}
+.education_heading{
+  font-size:400%;
+  padding-top:8%;
+  padding-bottom:8%;
+  text-align:center;
+  background-color:#52BE80;
+}
+.education_detail{
+  padding-top:1.5%;
+  padding-left:10%;
+}
+.education_list{
+  padding-top:4%;
+  list-style-type: none;
+}
+.technology{
+  margin-left:20%;
+  /* background-color: #00e64d; */
+  background-image: url("images/Summer Dog.jpg");
+  background-image: linear-gradient( to right, #ff99ff,#99ccff);
+  height:1100px;
+}
+.technology_heading{
+  font-size:400%;
+  color:white;
+  padding-top:8%;
+  padding-bottom:8%;
+  text-align:center;
+  background-color:#A569BD;
+}
+.technology_image{
+  padding-top:4%;
+  padding-left:5%;
+}
+
+.tp{
+  list-style-type: none;
+  margin-left:20%;
+  background-image: linear-gradient( to right,#33ccff,#ff99cc);
+  background-image: url("images/Tranquil.jpg");
+  height:950px;
+}
+.tp_heading{
+  font-size:400%;
+  padding-top:8%;
+  padding-bottom:8%;
+  text-align:center;
+  background-color:#82E0AA    ; 
+}
+.tp_detail{
+  text-align:center;
+  /* padding-top:4%; */
+}
+.tp_training{
+  font-size:200%;
+  text-align:center;
+}
+.tp_project{
+  font-size:200%;
+  text-align:center;
+}
+.tp_list{
+  padding-top:1%;
+  list-style-type: none;
+}
+
+.connect{
+  margin-left:20%;
+  background-image: url("images/Almost.jpg");
+  background-image: linear-gradient( to right,#ffff99,#666699);
+  height:800px;
+  list-style-type: none;
+}
+.connect_heading{
+  font-size:400%;
+  color:white;
+  padding-top:8%;
+  padding-bottom:8%;
+  text-align:center;
+  background-color:#F7DC6F;
+
+}
+.connect_list{
+  padding-left:10%;
+  padding-top:7%;
+  font-size:200%;
+}
+.connect_list:hover{
+  padding-left:10%;
+
+}
+.connect_link:hover{
+  font-size:100%;
+  text-decoration: none;
+  background-color:#99ffcc;
+  font-weight:bold;
+  color:#004466;
+}
+
+.input{
+  font-size:65%;
+  border:1px solid #009933;
+  border-radius:12%;
+  margin-left:10%;
+}
