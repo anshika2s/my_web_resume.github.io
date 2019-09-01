@@ -45,7 +45,7 @@ div{
 .home{
   margin-left:20%;
   text-align:center;
-  height:900px;
+  height:90%;
   background-color:	#C0C0C0;
   background-image: linear-gradient(to right, #757f9a,#d7dde8);
 
@@ -63,7 +63,7 @@ div{
 
 .profile{
   margin-left:20%;
-  height:850px;
+  height:85%;
   background-image: linear-gradient( to right,#33ccff,#ff99cc);
 }
 
@@ -79,16 +79,13 @@ div{
   font-size:120%;
   padding-top:4%;
   list-style-type: none;
-  /* background-color:#80ffbf; */
   padding-left:10%;
-  /* padding-bottom:; */
 }
 .education{
   list-style-type: none;
   margin-left:20%;
    background-image: linear-gradient( to right, #99ffcc,#ffff99);
-  /* background-image: url("images/Telegram.jpg"); */
-  height:920px;
+  height:92%;
 }
 .education_heading{
   font-size:400%;
@@ -110,7 +107,7 @@ div{
   /* background-color: #00e64d; */
   background-image: url("images/Summer Dog.jpg");
   background-image: linear-gradient( to right, #ff99ff,#99ccff);
-  height:1100px;
+  height:110%;
 }
 .technology_heading{
   font-size:400%;
@@ -130,7 +127,7 @@ div{
   margin-left:20%;
   background-image: linear-gradient( to right,#33ccff,#ff99cc);
   background-image: url("images/Tranquil.jpg");
-  height:950px;
+  height:95%
 }
 .tp_heading{
   font-size:400%;
@@ -141,7 +138,6 @@ div{
 }
 .tp_detail{
   text-align:center;
-  /* padding-top:4%; */
 }
 .tp_training{
   font-size:200%;
@@ -160,7 +156,7 @@ div{
   margin-left:20%;
   background-image: url("images/Almost.jpg");
   background-image: linear-gradient( to right,#ffff99,#666699);
-  height:800px;
+  height:80%;
   list-style-type: none;
 }
 .connect_heading{
