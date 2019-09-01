@@ -15,18 +15,18 @@ div{
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #f1f1f1;
+  background-color:#f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
 .nav_menu .nav_link.active {
-  background-color:	#C0C0C0;
+  background-color:#C0C0C0;
   color: white;
 }
 
 .nav_menu .nav_link:hover:not(.active) {
-  background-color:	#C0C0C0;
+  background-color:#C0C0C0;
   color: white;
 }
 
@@ -104,7 +104,6 @@ div{
 }
 .technology{
   margin-left:20%;
-  /* background-color: #00e64d; */
   background-image: url("images/Summer Dog.jpg");
   background-image: linear-gradient( to right, #ff99ff,#99ccff);
   height:110%;
